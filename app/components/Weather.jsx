@@ -1,9 +1,9 @@
 var React = require('react')
 var GetWeatherForm = require('GetWeatherForm')
 var WeatherMessage = require('WeatherMessage')
-// var openWeatherMap = require('openWeatherMap')
+var openWeatherMap = require('openWeatherMap')
 
-import openWeatherMap from openWeatherMap
+// import openWeatherMap from openWeatherMap
 
 var Weather = React.createClass({
     getInitialState: function () {
